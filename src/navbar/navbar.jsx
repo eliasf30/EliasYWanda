@@ -12,7 +12,7 @@ export default function Navbar() {
     const [Section, UseSection] = useState("")
 
     const [reproduciendo, setReproduciendo] = useState(false);
-    console.log(reproduciendo)
+    
   const audioRef = useRef(null);
 
 

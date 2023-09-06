@@ -2,8 +2,12 @@
     display: flex;
     width: 100vw;
     height: 100vh;
+    
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 .text-container{
     display: flex;
     
@@ -12,6 +16,8 @@
     background-color:rgb(247, 236, 234,.3) ;
     margin: auto;
     box-shadow: 5px 5px 5px #d6bfb8;
+    
+    
 }
 
 .text{
@@ -19,8 +25,11 @@
     align-items: center;
     flex-direction: column;
     margin: auto;
-    width: 85%;
+    width: 90%;
     height: 90%;
+    
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: hidden;
 }
 
 .title{

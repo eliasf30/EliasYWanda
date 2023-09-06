@@ -29,7 +29,7 @@ export default function Carrusel() {
 
     const [count, setCount] = useState(1);
 
-    console.log(count)
+    
 
     return (
         <div className="hero_div" id="Fotos">
