@@ -1,0 +1,54 @@
+.text-div{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.text-container{
+    display: flex;
+    
+    width: 90%;
+    height: 85%;
+    background-color:rgb(247, 236, 234,.3) ;
+    margin: auto;
+    box-shadow: 5px 5px 5px #d6bfb8;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 85%;
+    height: 90%;
+}
+
+.title{
+    color: rgb(156, 183, 207);
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2em;
+
+
+}
+
+p{
+    color: rgb(156, 183, 207);
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.4em;
+}
+
+
+@media (max-width: 900px){
+    .title{
+        color: rgb(156, 183, 207);
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 1.5em;
+    
+    
+    }
+
+
+    p{
+        font-size: .8em;
+    }
+}
